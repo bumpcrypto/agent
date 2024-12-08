@@ -1,0 +1,27 @@
+{
+    "name": "plugin-base",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "test:coverage": "jest --coverage"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@ai16z/eliza": "0.1.5-alpha.5",
+        "@uniswap/sdk-core": "6.0.0",
+        "@uniswap/smart-order-router": "^4.8.6",
+        "@uniswap/v3-sdk": "^3.19.0",
+        "dotenv": "16.4.5",
+        "viem": "2.21.53"
+    },
+    "devDependencies": {
+        "@types/jest": "29.5.14",
+        "jest": "29.7.0",
+        "ts-jest": "29.2.5"
+    }
+}
